@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/connect"
+        android:icon="@drawable/ic_baseline_call_24"
+        app:showAsAction="always"
+        android:title="" />
+
+    <item
+        android:id="@+id/bluetoothMenu"
+        android:icon="@drawable/ic_baseline_bluetooth_24"
+        android:title=""
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/bluetoothTurnOn"
+                android:icon="@drawable/ic_baseline_bluetooth_24"
+                android:title="Turn On"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/bluetoothTurnOff"
+                android:icon="@drawable/ic_baseline_bluetooth_disabled_24"
+                android:title="Turn Off"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/showPairedDevices"
+                android:icon="@drawable/ic_baseline_bluetooth_connected_24"
+                android:title="Paired devices"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/videoMenu"
+        android:icon="@drawable/ic_baseline_ondemand_video_24"
+        android:title=""
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/previewVideo"
+                android:title="Video preview"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/createRoom"
+                android:title="Create room"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/dataForConnect"
+                android:title="Room settings"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/disconnectCall"
+                android:icon="@drawable/ic_baseline_bluetooth_24"
+                android:title="Disconnect"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+
+
+</menu>
